@@ -53,7 +53,11 @@ python Program/Feature_extract/Seq_feature_extrac.py
 
 Structural features
 
-python Program/Feature_extract/Structure_Feature_extrac.py
+python Program/Feature_extract/Structure_Feature_extrac/Graph_feature_extrac.py
+
+python Program/Feature_extract/Structure_Feature_extrac/Secondary_feature_extrac.py
+
+python Program/Feature_extract/Structure_Feature_extrac/Tertiary_feature_extarc.py
 
 Evolutionary features
 
