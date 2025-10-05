@@ -22,33 +22,49 @@ The generated peptides can be used to expand the training set and improve model 
 
 # Structural Feature Generation
 Generate structural features using external tools:
+
 ESMATLAS
+
 Function: Predicts 3D structures of peptides
+
 Input: FASTA file
+
 Output: .pdb file
+
 Website: https://esmatlas.com/
 
 NetSurfP-3.0
+
 Function: Extracts secondary structure and conformational probabilities
+
 Input: FASTA file
+
 Output: .csv file
+
 Website: https://services.healthtech.dtu.dk/services/NetSurfP-3.0/
 
 # Feature Extraction
+
 Run the following scripts in order:
+
 Sequence features
+
 python Program/Feature_extract/Seq_feature_extrac.py
 
 Structural features
+
 python Program/Feature_extract/Structure_Feature_extrac.py
 
 Evolutionary features
+
 python Program/Feature_extract/Evolu_feature_extrac.py
 
 Topological features
+
 python Program/Feature_extract/Topological_feature_extrac.py
 
 # Feature fusion and selection (final 100-dimensional vector)
+
 python Program/Feature_extract/Feature_fusion_selection.py
 
 # Ensemble Learning Prediction
