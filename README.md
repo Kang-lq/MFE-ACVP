@@ -2,15 +2,22 @@
 A multi-modal ensemble learning tool for predicting anticoronavirus peptides, integrating sequence, structural, topological, and evolutionary features, and capable of generating new candidate peptides.
 # Datasets
 Training sets: train_pos.fasta, train_neg.fasta
+
 Test sets: test_pos.fasta, test_neg.fasta
+
 Independent evaluation sets: independent_pos.fasta, independent_neg.fasta
+
 All sequences are standard amino acid sequences (A, C, D, E, F, ...) in FASTA format.
 
 # Peptide Generation with GAN (MMaliGAN)
 Use the improved MaliGAN model to generate new peptide candidates based on the positive training samples:
+
 Goal: Generate a number of peptides equal to the positive training samples (1:1 ratio).
+
 Command:
+
 python Program/Model/GAN_Model.py
+
 The generated peptides can be used to expand the training set and improve model generalization.
 
 # Structural Feature Generation
