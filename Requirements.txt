@@ -1,3 +1,5 @@
+# ---- Python Version ----
+python_version == 3.8.20
 # ---- Core Scientific Libraries ----
 numpy==1.24.3
 pandas==1.5.3
@@ -42,4 +44,5 @@ typing_extensions==4.13.2
 # ---- Optional (Feature/Model Visualization) ----
 graphviz==0.20.3
 lime==0.2.0.1
+
 matplotlib-venn==1.1.2
